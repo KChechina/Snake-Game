@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightcyan;
+}
+
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody {
+    background-color: darkgreen;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.snakeHead {
+    background-color: black;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.apple {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.restart {
+    width: 100px;
+    height: 40px;
+    background-color: yellowgreen;
+    color: black;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
